@@ -14,3 +14,4 @@ C:\Users\jolse\source\repos\BwConsumer\obj\Debug\net8.0\BwConsumer.pdb
 C:\Users\jolse\source\repos\BwConsumer\obj\Debug\net8.0\BwConsumer.genruntimeconfig.cache
 C:\Users\jolse\source\repos\BwConsumer\obj\Debug\net8.0\ref\BwConsumer.dll
 C:\Users\jolse\source\repos\BwConsumer\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\jolse\source\repos\BwConsumer\obj\Debug\net8.0\BwConsumer.sourcelink.json

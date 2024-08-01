@@ -24,8 +24,8 @@ namespace BwConsumer.Service
             var content = new FormUrlEncodedContent(new[]
             {
                 new KeyValuePair<string, string>("grant_type", "client_credentials"),
-                new KeyValuePair<string, string>("client_id", "projonas11@gmail.com:Fishingvessel-surveillance"),
-                new KeyValuePair<string, string>("client_secret", "Snus12345678"), // use "client_secret" here
+                new KeyValuePair<string, string>("client_id", "CLIENT_ID"),
+                new KeyValuePair<string, string>("client_secret", "CLIENT_SECRET"), // use "client_secret" here
                 new KeyValuePair<string, string>("scope", "ais")
             });
 
