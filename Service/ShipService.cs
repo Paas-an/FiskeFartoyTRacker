@@ -55,6 +55,10 @@ public void PrintDistancesToHomePort()
     {
         var ship = _ships.Find(s => s.Mmsi == entry.Key);
         var distance = Math.Round(entry.Value, 2); // Round to 2 decimal places
+        if(distance < 15){
+            Console.WriteLine($"{ship.Name} (MMSI: {entry.Key}), er i AAlesund");
+        }
+        else
         Console.WriteLine($"The distance from the ship {ship.Name} (MMSI: {entry.Key}) to the home port is {distance} kilometers./n");
     }
 }
